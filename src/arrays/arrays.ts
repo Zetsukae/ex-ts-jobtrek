@@ -11,7 +11,7 @@ export function removeNumbersBelowThreshold(
   array: number[],
   threshold: number,
 ): number[] | [] {
-  // Write your code here
+  return array.filter(num => num >= threshold);
 }
 
 export function filterStringByLength(
