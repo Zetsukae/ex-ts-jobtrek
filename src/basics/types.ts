@@ -54,6 +54,6 @@ export function countElementsInAnArrayOfUnknown(
  *
  * Complete the types and write the logic
  */
-export function arrayOfStringsToArrayOfStringLength(array: string[]) {
-  // Write your code here
+export function arrayOfStringsToArrayOfStringLength(array: string[]) : number[] {
+  return array.map(str => str.length);
 }
